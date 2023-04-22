@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".dashboard1">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:text="Room Temperature"
+
+        android:textAlignment="center"
+        android:textColor="#2E2D2D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="75dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
