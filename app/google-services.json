@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095519487276",
+    "project_id": "smartmirror-976a4",
+    "storage_bucket": "smartmirror-976a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095519487276:android:743d69e5a0bc0a7e6bd889",
+        "android_client_info": {
+          "package_name": "com.example.mirror"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095519487276-34k5sdt2en6v3h4b7u7tutg2l8oqu4rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIvfW0qaeGfSWAczzYumm6jH7JhkeX8H8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095519487276-34k5sdt2en6v3h4b7u7tutg2l8oqu4rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

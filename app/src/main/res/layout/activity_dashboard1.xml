@@ -62,4 +62,38 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.172" />
 
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="154dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/border"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingStart="50px"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:paddingEnd="50px"
+        android:paddingBottom="50px"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bulboff" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="154dp"
+        android:layout_height="149dp"
+        android:background="@drawable/border"
+        android:scaleType="fitCenter"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/baseline_camera_indoor_24"
+        tools:srcCompat="@drawable/baseline_camera_indoor_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
